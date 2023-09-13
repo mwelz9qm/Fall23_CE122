@@ -1,2 +1,2 @@
 # Fall23_CE122
-class repo
+class repo for in-class stuff, quiz, homework solutions or whatever!
