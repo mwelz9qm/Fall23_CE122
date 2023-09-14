@@ -1,0 +1,6 @@
+name      city      state     
+Matt      Durango   Colorado  
+Maria     Chicago   Illinois  
+   14.80    5.12   32.90
+   29.60   10.24   65.80
+   44.40   15.36   98.70
