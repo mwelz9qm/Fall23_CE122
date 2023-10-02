@@ -1,0 +1,3 @@
+       Durango          Plot        100.00        120.50      12050.00
+      Bayfield          Plot         57.80        140.10       8097.78
+       Hermosa          Plot        112.00        132.50      14840.00
