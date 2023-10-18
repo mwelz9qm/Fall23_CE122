@@ -8,7 +8,7 @@ int diceRoll(); //the prototype for our dice rolling functions. Requires no inpu
 
 int main()
 {
-    srand(time(0));  //sets the seed for the random number generator using the current unix time
+    srand(time(0));  //sets the seed for the random number generator using the current unix time (since 1/1/1970)
     int roll;
     
     for (int i = 1; i <= 20; i++) //a loop to check out the value of 20 dice rolls
