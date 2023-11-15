@@ -5,17 +5,17 @@ using namespace std;
 
  enum wallStyle{DRYWALL, PLASTER};
 
-    //hopetype allows us to have records containing a variety of datatypes to represent a house
-    struct homeType
-    {
-        string style;
-        int numBedrooms;
-        int numBaths;
-        int yearBuilt;
-        wallStyle wallType;
-        double price;
-        double tax;
-    };
+//hopetype allows us to have records containing a variety of datatypes to represent a house
+struct homeType
+{
+    string style;
+    int numBedrooms;
+    int numBaths;
+    int yearBuilt;
+    wallStyle wallType;
+    double price;
+    double tax;
+};
 
 int main()
 {  
