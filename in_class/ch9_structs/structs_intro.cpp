@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{   enum wallStyle{DRYWALL, PLASTER};
+ enum wallStyle{DRYWALL, PLASTER};
 
     //hopetype allows us to have records containing a variety of datatypes to represent a house
     struct homeType
@@ -17,6 +16,9 @@ int main()
         double price;
         double tax;
     };
+
+int main()
+{  
 
     homeType myHouse;
 

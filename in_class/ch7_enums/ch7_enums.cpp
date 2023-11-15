@@ -2,11 +2,13 @@
 
 using namespace std;
 
+//declaring a colors type
+
+enum colors {red, orange, yellow, green, blue, violet};
+
 int main()
 {
-    //declaring a colors type
 
-    enum colors {red, orange, yellow, green, blue, violet};
 
     colors c1, c2; //variables get declared as usual
 
