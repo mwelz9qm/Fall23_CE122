@@ -3,7 +3,7 @@
 
 using namespace std;
 
- enum wallStyle{DRYWALL, PLASTER};
+enum wallStyle{DRYWALL, PLASTER};
 
 //hopetype allows us to have records containing a variety of datatypes to represent a house
 struct homeType
@@ -17,10 +17,13 @@ struct homeType
     double tax;
 };
 
+void printHouse(const homeType & house); // passing struct by reference is a good idea, but just printing so holding const
+
 int main()
 {  
 
     homeType myHouse;
+ 
 
     //setting the member variables for myHouse
     myHouse.style = "Cape Cod";
@@ -37,5 +40,23 @@ int main()
     cout << "Year built: " << myHouse.yearBuilt << endl;
     cout << "Purchase price: " << myHouse.price << endl;
 
+    //now call the function to print the house    
+
+    printHouse(myHouse);
+
     return 0;
 }
+
+void printHouse(const homeType & house)
+{
+    cout << "********************************************" << endl;
+    cout << "Home style: " << house.style << endl;
+    cout << "Number of bedrooms: " << house.numBedrooms << endl;
+    cout << "Number of bathrooms: " << house.numBaths << endl;
+    cout << "Year Built: " << house.yearBuilt << endl;
+    cout << "Wall Style: " << house.wallType << endl;
+    cout << "Purchase Price: " << house.price << endl;
+    cout << "Tax: " << house.tax << endl;
+    cout << "********************************************" << endl;
+}
+
